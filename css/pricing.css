@@ -100,7 +100,7 @@ p {
  * By default, a header is black/white, and has some styles for its <h2> name.
  */
 .pricing-table-header {
-    background: #111;
+    background: linear-gradient(#eb9c0a, #2d2d2d);
     color: #fff;
 }
     .pricing-table-header h2 {
