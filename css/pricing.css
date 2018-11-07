@@ -92,7 +92,7 @@ p {
 }
 
 .pricing-table-biz .pricing-table-header {
-    background: #2c4985;
+    background: linear-gradient(#2c4985, #2d2d2d);
 }
 
 /*
