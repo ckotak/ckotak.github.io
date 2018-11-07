@@ -88,7 +88,7 @@ p {
  * Choose a different color based on the type of pricing table.
  */
 .pricing-table-free .pricing-table-header {
-    background: #519251;
+    background: linear-gradient(#519251, #2d2d2d) ;
 }
 
 .pricing-table-biz .pricing-table-header {
