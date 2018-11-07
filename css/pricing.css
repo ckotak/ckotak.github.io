@@ -2,6 +2,12 @@
  * -- BASE STYLES --
  * Most of these are inherited from Base, but I want to change a few.
  */
+ @-webkit-keyframes opacityPulse {
+    0% {opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {opacity: 0.0;}
+}
+
  body {
     color: #526066;
 }
@@ -54,6 +60,9 @@ p {
         color: white;
         font-weight: 500;
         text-shadow: 0 1px 1px black;
+        animation: opacityPulse 2s ease-out;
+        animation-iteration-count: infinite; 
+        opacity: 1;
     }
 
 /*
